@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+section#conteudo_feedback {
+	display: block;
+	width: 900px;
+	height: 500px;
+	padding: 20px;
+	margin-left: 50px;
+}
+
+hgroup#conjunto {
+	position: absolute;
+	width: 900px;
+	height: 200px;
+	left: 50px;
+}
+
+hgroup#conjunto h2#titulo {
+	position: relative;
+	display: block;
+	margin-left: -40px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25pt;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px;
+	width: 500px;
+}
+
+hgroup#conjunto h2#titulo2 {
+	position: relative;
+	margin-left: 580px;
+	top: -80px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25pt;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px;
+	width: 300px;
+}
+
+iframe#janela {
+	position: absolute;
+	width: 330px;
+	height: 300px;
+	left: 0px;
+}
+
+/*Position é absolute porque se relativo ele faz com que altura do conteúdo aumente.*/
+
+iframe#janela2 {
+	position: absolute;
+	width: 330px;
+	height: 300px;
+	left: 580px;
+	top: 110px;
+}

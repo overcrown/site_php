@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+header#cabecalho h2#fases {
+	position: absolute;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30pt;
+	left: 450px;
+	top: 220px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px;
+}
+
+
+ul#fotos {
+	position: relative;
+	padding: 50px;
+	top: 10px;
+	left: 100px;
+}
+
+ul#fotos li {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 40px;
+	padding: 10px;
+	list-style: none;
+	background-color: #dddddd;
+	border: solid 2px black;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 0.4s ease-in;
+}
+
+ul#fotos li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#fotos li span {
+	position: relative;
+	left: 150px;
+	font-size: 15pt;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 7px;
+	color: white;
+}
+
+ul#fotos li:hover span {
+	opacity: 1;
+}
+
+ul#fotos li#fase1 {
+	background: url('../midia/fase1.png');
+	background-position: 50% 50%;
+	background-size: 900px 596px;
+	background-color: #dddddd;
+}
+
+ul#fotos li#fase1:hover {
+	background-position: 0px 0px;
+	background-size: 220px 220px;
+}
+
+ul#fotos li#fase2 {
+	background: url('../midia/fase2.png');
+	background-position: 50% 50%;
+	background-size: 1025px 601px;
+}
+
+ul#fotos li#fase2:hover {
+	background-position: 0px 0px;
+	background-size: 220px 220px;
+}
+
+ul#fotos li#fase3 {
+	background: url('../midia/fase3.png');
+	background-position: 50% 50%;
+	background-size: 1016px 600px;
+}
+
+ul#fotos li#fase3:hover {
+	background-position: 0px 0px;
+	background-size: 220px 220px;
+}
+
+ul#fotos li#fase4{
+	background: url('../midia/fase4.png');
+	background-position: 50% 50%;
+	background-size: 1023px 596px;
+}
+
+ul#fotos li#fase4:hover {
+	background-position: 0px 0px;
+	background-size: 220px 220px;
+}

@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+	position: absolute;
+	width: 1100px;
+	background: url('../midia/corpo.jpg');
+	margin: auto;
+	padding: 5px;
+}
+
+div#interface {
+	margin: auto;
+	width: 100%;
+}
+
+
+header#cabecalho {
+	background: url('../midia/gamevid19.png') no-repeat 35px 85px;
+	height: 300px;
+}
+
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	position: absolute;
+	left: 400px;
+	top: 0px;
+}
+
+nav#menu li {
+	display: inline-block;
+	padding: 5px;
+	background-color: rgb(170, 40, 44);
+	margin: 4px;
+	transition: background-color 1s;
+	color: black;
+}
+
+nav#menu li:hover {
+	background-color: rgb(0, 0, 0);
+}
+
+nav#menu a {
+	color: black;
+	text-decoration: underline;
+}
+
+nav#menu a:hover {
+	transition-delay: 0.1s;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+section#conteudo {
+	display: block;
+	padding: 20px; 
+	margin-left: 50px;
+	top: -60px;
+	width: 900px;
+	height: 700px;
+}
+
+section#conteudo hgroup h1{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif; 
+	font-size: 35pt;
+	color: #dddddd;
+}
+
+section#conteudo hgroup h2 {
+	position: relative;
+	top: 10px;
+	left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25pt;
+	color: #dddddd;
+}
+
+section#conteudo h3 {
+	position: relative;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15pt;
+	color: #dddddd;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #dddddd;
+	font-size: 20pt;
+	text-align: justify;
+	text-indent: 45px;
+}
+
+h2 {
+	position: relative;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #dddddd;
+	font-size: 30pt;
+}
+
+hgroup#multimidia1 img#subtitulo {
+	position: relative;
+	left: 200px;
+	width: 500px;
+	height: 150px;
+}
+
+
+section#conteudo div#multimidia {
+	position: relative;
+	left: 135px;
+}
+
+div#multimidia img#tv {
+	position: relative;
+	margin-left: 100px;
+}
+
+div#multimidia video#filme {
+	display: block;
+	position: relative;
+	left: 125px;
+	top: -290px;
+	width: 450px;
+	height: 235px;
+}
+
+footer#rodape {
+	position: relative;
+	clear: both;
+	top: 0px;
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+footer#rodape p {
+	text-align: center;
+
+}

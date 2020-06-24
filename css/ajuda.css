@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+section#conteudo_ajuda {
+	display: block;
+	width: 900px;
+	height: 450px;
+	padding: 20px;
+	margin-left: 100px;
+}
+
+ul#contatos {
+	position: relative;
+	width: 500px;
+}
+
+ul#contatos li {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25pt;
+	color: #ffffff;
+	padding: 5px;
+}
